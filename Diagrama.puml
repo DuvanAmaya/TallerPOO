@@ -1,0 +1,17 @@
+@startuml Taller
+Class Persona {
+String nombre;
+String apellido;
+int cedula;
+String email;
+String genero;
+}
+
+Class IMC {
+float pesoPersona;
+float alturaPersona;
+Date fecha;
+Persona persona;
+}
+
+Persona --> IMC : tiene una lista de
